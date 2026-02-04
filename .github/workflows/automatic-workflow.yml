@@ -1,4 +1,4 @@
- name: Automatic Workflow
+ #name: Automatic Workflow
  on:
    push
  
