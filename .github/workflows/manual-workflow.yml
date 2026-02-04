@@ -1,7 +1,5 @@
 name: Manual Workflow
-
-on:
-  workflow_dispatch:
+on: workflow_dispatch:
 
 jobs:
   test:
@@ -9,3 +7,4 @@ jobs:
     steps:
       - name: Run test command
         run: echo "Testing all the things..."
+
