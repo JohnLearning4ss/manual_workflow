@@ -1,11 +1,13 @@
 name: Scheduled Workflow
+
 on:
-   schedule:
-      # * is a special character in YAML so you have to quote this string
-     - cron: '47 0 * * *'
- 
- jobs:
-   hello-world:
-     runs-on: ubuntu-latest
-     steps:
-       - run: echo "Hello, World!"
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron: '51 0 * * *'
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, World!"
+
