@@ -1,0 +1,4 @@
+- name: Show GitHub UTC time
+  run: |
+    echo "UTC time (GitHub uses this):"
+    date -u
