@@ -1,4 +1,13 @@
-- name: Show GitHub UTC time
-  run: |
-    echo "UTC time (GitHub uses this):"
-    date -u
+name: Show GitHub Time
+
+on:
+  workflow_dispatch:
+
+jobs:
+  show-time:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show GitHub UTC time
+        run: |
+          echo "UTC time (GitHub uses this):"
+          date -u
